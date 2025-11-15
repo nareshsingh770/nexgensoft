@@ -18,7 +18,6 @@ jobs:
       - name: Build and Export (SSG)
         run: |
           npm run build
-          npm run export
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
